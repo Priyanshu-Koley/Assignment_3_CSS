@@ -1,0 +1,92 @@
+/* declare variables for color codes*/
+:root {
+  --pink: #ff9999;
+  --gray: #ececfb;
+  --yellow: #ffff73;
+}
+/* setting padding and margin to 0, box-sizing to border-box for the whole html document */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+/* styling the whole page to vertically and horizontally center the container */
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+/* setting width, height, border, and padding to the container */
+.container {
+    width: 800px;
+    height: 500px;
+    border: 1px solid;
+    padding: 10px;
+}
+/* styling the header to center the text */
+.header {
+    background-color: var(--pink);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    padding: 20px;
+    height: 170px;
+}
+/* setting font-size and width to center the heading */
+.top-p {
+  width: 65%;
+  margin: 0px 0px 30px 0px;
+  font-size: 27px;
+}
+/* setting font-size of the sub-heading */
+.bottom-p {
+  font-size: 20px;
+}
+/* setting height of the main section */
+.main {
+  display: flex;
+  height: 310px;
+}
+/* setting width and height, background-color and border to the left article section */
+.left {
+  width: 560px;
+  height: 100%;
+  background-color: var(--yellow);
+  padding: 0px;
+  border: 2px solid;
+}
+/* setting width to the image */
+.bg-img {
+  width: 100%;
+  padding: 6px 8px;
+}
+/* setting width and height, background-color and border to the right aside section and styling it's contents to center*/
+.right {
+  width: 228px;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  background-color: var(--gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* setting width to the image */
+.user-img {
+  width: 130px;
+  margin: 15px 0px 12px 0px;
+}
+/* setting font-size to the sub heading */
+.about-me {
+  font-size: 30px;
+}
+/* setting text size and centering the text */
+.about-me-text {
+  font-size: 19px;
+  margin: 12px;
+  text-align: center;
+}
